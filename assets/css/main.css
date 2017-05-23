@@ -65,3 +65,39 @@ nav {
                     background: #ce4e79;
                 }
 
+.menu-fijo{
+	z-index: 1;
+}
+
+.foto img{
+    max-width: 100%;
+    top: 100px;
+    height: auto;
+    background-image: url(../img/cropped-Lyft-Promo-Codes-car-1.jpg);
+    background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+
+}
+
+.signUp-number{
+	background-color: #EDE9E2;
+	padding: 40px;
+	position: absolute;
+	right: 0;
+	top: 200px;
+	max-width: 300px;
+
+}
+
+.corazon span i{
+	position: absolute;
+	bottom: 20px;
+	right: 175px;
+	display: block;
+	color: #9c1960;
+	font-size: 30px;
+}
+
