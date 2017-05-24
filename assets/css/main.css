@@ -102,7 +102,7 @@ nav {
 }
 
 /* FORMULARIO - sign up telefono - input */
-input[type=text] {
+#number-phone {
     border: none;
     border-bottom: 1px solid #75726C;
     background: transparent;
@@ -138,10 +138,10 @@ p{
 /* FORMULARIO_JUEGO - fondo */
 .play-with-lyft{
 	position: absolute;
-	height: 420px;
+	height: 720px;
 	background-color: #00B2A9;
 	width: 100%;
-	padding: 50px 0 50px 0;
+	padding: 30px 0 30px 0;
 	top: 650px;
 	display: block;
 }
@@ -158,20 +158,75 @@ p{
 	font-size: 50px;
 }
 
+/* FORMULARIO_JUEGO - espacio gris input*/
 .input-coordenadas{
 	position: relative;
-	width: 870px;
+	width: 800px;
 	height: 200px;
 	background-color: #EDE9E2;
-	top: 75px;
+	top: 60px;
 	left: 180px;
-	padding: 20px;
+	padding: 40px;
+	display: block;
 }
 
+/* JUEGO */
+
+.matriz{
+	position: absolute;
+	width: 760px;
+	height: 432px;
+	background-color: #75726C;
+	top: 240px;
+	left: 200px;
+	padding: 40px;
+	display: none;
+}
+
+
+#x-coordenate, #y-coordenate {
+	border: none;
+    border-bottom: 1px solid #75726C;
+    width: 250px;
+    display: inline-block;
+    background: transparent;
+    position: absolute;
+    left: 90px;
+    margin: 40px 20px 40px 20px;
+    height: 40px;
+    display: block;
+}
+#x-coordenate {
+    left: 90px;
+}
+
+#y-coordenate{
+    left: 500px;
+
+}
+
+/* FORMULARIO_JUEGO - BOTON*/
+.btn-start{
+	background-color: #00B2A9;
+	padding: 15px 20px 15px 20px;
+	border: none;
+	border-radius: 14px;
+	color: white;
+	width: 750px;
+	position: relative;
+	left: 50px;
+	top: 150px;
+	display: block;
+}
+
+.footer-completo{
+	z-index: 1
+}
+/* FOOTER - grande*/
 .fondo-footer-gr{
 	position: absolute;
 	width: 100%;
-	top: 1170px;
+	top: 1230px;
 	height: 190px;
 	background-color: #75726C;
 }
@@ -194,6 +249,7 @@ p{
 	color: whitesmoke;
 }
 
+/* FOOTER - chico */
 .footer-link{
 	position: absolute;
 	width: 200px;
@@ -212,7 +268,7 @@ p{
 .footer-chico{
 	position: absolute;
 	width: 100%;
-	top: 1355px;
+	top: 1400px;
 	height: 40px;
 	background-color: #726f69;
 	color: whitesmoke;
@@ -226,7 +282,18 @@ p{
 
 .more-links{
 	position: absolute;
-	margin-left: 1000px;
+	margin-left: 970px;
 	top: 5px;
 }
 
+.lienzo {
+	position: absolute;
+	top: 300px;
+	width: 760px;
+	height: 432px;
+	top: 240px;
+	left: 200px;
+	padding: 40px;
+	display: none;
+
+}

@@ -24,13 +24,10 @@
 		</nav>
 	</header>
 
-	<!--parallax-->
-	
-	
+	<!--PARALLAX-->
 	<section>
 		<div class="contenedor-parallax">
 			<div class="foto"></div>
-
 			<div class="signUp">
 				<form>
 					<h1 class="tit-signUp">TURN MILES INTO MONEY</h1><br>
@@ -38,7 +35,7 @@
 					<input type="text" name="number" id="number-phone" placeholder="Phone Number">
 					
 						<i class="fa fa-heart" aria-hidden="true"></i>
-					<button type="button" class="btn-signUp">BECOME A DRIVE</button>
+					<button type="button" id ="btnFono"class="btn-signUp">BECOME A DRIVE</button>
 					<br><br>
 					<p>Already applied? Check the status of your application here.</p><br>
 					<p>Earn money for inviting friends to drive. Learn more.</p><br>
@@ -46,42 +43,48 @@
 			</div>
 		</div>
 	</section>
-
+	
+	<!--JUEGO-->
 	<section>
-		<div class="play-with-lyft">
+		<div class="play-with-lyft" id="cajaCalipso">
 			<h2 class="tit-play">PLAY WITH LYFT</h2>
-			<div class="input-coordenadas">
+			<div class="input-coordenadas" id="cajaGame">
 				<div class="x-coo">
-					<i class="fa fa-car" aria-hidden="true"></i>
+				
+					<label for="x-coordenate"></label>
 					<input type="text" id="x-coordenate" placeholder="X coordenate">
 				</div>
 				<div class="y-coo">
-					<i class="fa fa-car" aria-hidden="true"></i>
+					<!--<i class="fa fa-car" aria-hidden="true"></i>-->
+					<label for="y-coordenate"></label>
 					<input type="text" id="y-coordenate" placeholder="Y coordenate">
 				</div>
 				<button class="btn-start" id="btn-start">START</button>
 				
 			</div>
+			<div class="matriz" id="matriz"></div>
+			<canvas id="lienzo"></canvas>
 		</div>
 	</section>
 
-	<section>
-		<div class="fondo-footer-gr">
+	<!--FOOTER-->
+	<section class="footer-completo">
+		<div class="fondo-footer-gr" id="footerGrande">
 			<div class="footer-info">
 				<p class="sprint-3">Sprint 3 Proyect</p><br>
-				<p class="sprint-subtit">You can use rows and columns here to organize your footer content.</p>
+				<p class="sprint-subtit">Hecho por: <br>Paulina Gonzalez C.</p>
 			</div>
 			<div class="footer-link">
-				<h5 class="links">Links</h5><br>
+				<h5 class="links">Redes Sociales</h5><br>
 				<ul>
-					<li><a class="lk1" href="#!">Link 1</a></li>
-					<li><a class="lk2" href="#!">Link 2</a></li>
-					<li><a class="lk3" href="#!">Link 3</a></li>
-					<li><a class="lk4" href="#!">Link 4</a></li>
+					<li><a class="lk1" href="https://www.facebook.com/">Facebook</a></li>
+					<li><a class="lk2" href="https://twitter.com/">Twitter</a></li>
+					<li><a class="lk3" href="https://www.instagram.com">Instagram</a></li>
+					<li><a class="lk4" href="https://www.youtube.com">Youtube</a></li>
 				</ul>
 			</div>
 		</div>
-		<div class="footer-chico">
+		<div class="footer-chico" id="footerChico">
 			<div class="lift-2017">© 2017 Lyft - Laboratoria Inc.</div>
 			<div class="more-links" href="#!">More Links</div> 
 			
