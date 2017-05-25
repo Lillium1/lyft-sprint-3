@@ -126,8 +126,9 @@ h1 {
 	color: #00B2A9;
 }
 
-.signUp-number h5{
+.signUp h5{
 	color: #75726C;
+	font-size: 15px;
 }
 
 p{
@@ -168,17 +169,18 @@ p{
 	left: 180px;
 	padding: 40px;
 	display: block;
+
 }
 
 /* JUEGO */
 
 .matriz{
 	position: absolute;
-	width: 760px;
-	height: 432px;
+	width: 700px;
+	height: 420px;
 	background-color: #75726C;
-	top: 240px;
-	left: 200px;
+	top: 225px;
+	left: 230px;
 	padding: 40px;
 	display: none;
 }
@@ -197,11 +199,13 @@ p{
     display: block;
 }
 #x-coordenate {
-    left: 90px;
+    left: 130px;
+    font-size: 20px;
 }
 
 #y-coordenate{
-    left: 500px;
+    left: 520px;
+    font-size: 20px;
 
 }
 
@@ -212,9 +216,9 @@ p{
 	border: none;
 	border-radius: 14px;
 	color: white;
-	width: 750px;
+	width: 720px;
 	position: relative;
-	left: 50px;
+	left: 40px;
 	top: 150px;
 	display: block;
 }
@@ -227,14 +231,14 @@ p{
 	position: absolute;
 	width: 100%;
 	top: 1230px;
-	height: 190px;
+	height: 200px;
 	background-color: #75726C;
 }
 
 .footer-info{
 	position: relative;
 	width: 550px;
-	height: 130px;
+	height: 150px;
 	left: 180px;
 	top: 35px;
 
@@ -259,16 +263,20 @@ p{
 	list-style: none;
 }
 
+.footer-link ul li {
+	padding: 2px;
+}
+
 .footer-link ul li a {
 	color: whitesmoke;
 	font-size: 15px;
     color: white;
 }
-
+	
 .footer-chico{
 	position: absolute;
 	width: 100%;
-	top: 1400px;
+	top: 1410px;
 	height: 40px;
 	background-color: #726f69;
 	color: whitesmoke;
@@ -285,8 +293,8 @@ p{
 	margin-left: 970px;
 	top: 5px;
 }
-
-.lienzo {
+ 
+.dibujo {
 	position: absolute;
 	top: 300px;
 	width: 760px;
@@ -295,5 +303,24 @@ p{
 	left: 200px;
 	padding: 40px;
 	display: none;
+}
 
+.signUp button i {
+	font-size: 15px;
+}
+
+.x-coo i{
+	position: absolute;
+	top: 85px;
+	left: 90px;
+	font-size: 30px;
+	color: #75726C;
+}
+
+.y-coo i{
+	position: absolute;
+	top: 85px;
+	left: 480px;
+	font-size: 30px;
+	color: #75726C;
 }
